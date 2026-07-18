@@ -105,33 +105,3 @@
   font-size: 14px;
 }
 
-/* Dark Mode  */
-/* body.dark-mode {
-  background-color: hsl(207, 26%, 17%);
-  color: hsl(0, 0%, 50%);
-}
-
-body.dark-mode header {
-  background-color: hsl(209, 23%, 22%);
-  color: white;
-}
-
-body.dark-mode .Back-Btn {
-  background-color: hsl(209, 23%, 22%);
-  color: white;
-}
-
-body.dark-mode .country-details-container {
-  background-color: hsl(209, 23%, 22%);
-  color: white !important;
-} */
-/* body.dark-mode input {
-  background-color: hsl(209, 23%, 22%);
-}
-
-body.dark-mode select {
-  background-color: hsl(209, 23%, 22%);
-}
-body.dark-mode select option {
-  background-color: hsl(209, 23%, 22%);
-} */

@@ -8,7 +8,6 @@ import { CountriesDataContext } from "../contexts/countriesData";
 function CountryDetail() {
   const { country: countryName } = useParams();
   const navigation = useNavigate();
-  // const { state } = useLocation();
 
   const [isDark] = useTheme();
 
