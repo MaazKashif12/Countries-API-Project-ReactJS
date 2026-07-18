@@ -1,0 +1,187 @@
+/* Google Fonts */
+@font-face {
+  font-family: "Nunito";
+  src: url("./Fonts/Nunito-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-inline: auto;
+  padding-inline: 100px;
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+#title {
+  font-weight: 900;
+}
+
+header p {
+  text-transform: capitalize;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* Header Ends */
+
+/* Countries - Card - Section  */
+main {
+  padding: 24px;
+}
+.Countries-Container {
+  max-width: 1320px;
+  margin-inline: auto;
+  margin-block: 35px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.Country-Card {
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.Country-Card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.Country-Card img {
+  width: 100%;
+}
+
+.country-card-content {
+  padding: 16px 20px;
+  padding-bottom: 32px;
+}
+
+.country-card-content h3 {
+  margin-block: 15px;
+  font-size: 24px;
+}
+
+.country-card-content p {
+  margin: 6px 0px;
+  font-size: 14px;
+}
+
+.country-card-content b {
+  font-weight: 600;
+}
+
+/* Search Fitler Styling */
+
+.search-filter-container {
+  max-width: 1320px;
+  width: 90%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBar {
+  /* border: 2px dashed blue; */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 30%;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.searchBar i {
+  padding: 12px 20px;
+  color: lightslategray;
+  /* border: 1px solid; */
+}
+.searchBar input {
+  width: 100%;
+  padding: 12px;
+  margin-inline: 12px;
+  border: none;
+  outline: none;
+}
+
+.search-filter-container select {
+  width: 18%;
+  padding: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border: none;
+  outline: none;
+  color: lightslategray;
+  text-transform: capitalize;
+  border-radius: 6px;
+}
+
+.search-filter-container select option {
+  border: none;
+  outline: none;
+  padding: 15px;
+}
+
+/* Dark Mode  */
+
+header.dark-mode {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+main.dark-mode {
+  background-color: hsl(207, 26%, 17%);
+  color: white;
+  min-height: 100vh;
+}
+
+main.dark-mode .country-card-content {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+}
+
+main.dark-mode .searchBar {
+  background-color: hsl(209, 23%, 22%);
+}
+
+main.dark-mode .searchBar i {
+  color: white;
+}
+
+main.dark-mode .searchBar input {
+  background-color: transparent;
+  color: white;
+}
+
+main.dark-mode .searchBar input::placeholder {
+  color: #d3d3d3;
+}
+
+main.dark-mode select {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+}
+
+main.dark-mode select option {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+}

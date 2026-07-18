@@ -1,0 +1,20 @@
+.shimmer-img {
+  background-color: #ccc;
+  border-radius: 8px;
+  margin-block: 20%;
+}
+
+.content-details-shimmer {
+  margin-block: 25%;
+}
+#heading {
+  height: 60px;
+  width: 50%;
+  background-color: #ccc;
+}
+.details {
+  width: 90%;
+  height: 30px;
+  background-color: #ccc;
+  margin: 15px;
+}
